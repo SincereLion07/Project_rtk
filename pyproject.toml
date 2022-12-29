@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "\"project-rtk\""
+version = "0.1.0"
+description = ""
+authors = ["ElenaS <lenin_85.85@mail.ru>"]
+readme = "README.md"
+packages = [{include = "\"project_rtk\""}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.7.2"
+webdriver-manager = "^3.8.5"
+pytest = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
